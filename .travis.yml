@@ -28,4 +28,4 @@ script:
   - mix coveralls.travis
 notifications:
   recipients:
-    - kelostrada@gmail.com
+    - omarshariffd@gmail.com
