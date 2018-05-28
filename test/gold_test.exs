@@ -32,13 +32,13 @@ defmodule GoldTest do
   test "getnewaddress", %{btc: name} do
     address = Gold.getnewaddress!(name)
     assert String.length(address) >= 26
-    assert String.length(address) <= 34
+    assert String.length(address) <= 35
   end
 
   test "getnewaddress w/ account by getaccount!", %{btc: name} do
     address = Gold.getnewaddress!(name, "foo_account")
     assert String.length(address) >= 26
-    assert String.length(address) <= 34
+    assert String.length(address) <= 35
 
     account = Gold.getaccount!(name, address)
     assert account == "foo_account"
