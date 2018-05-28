@@ -22,8 +22,8 @@ defmodule Gold.Mixfile do
 
   defp deps do
     [{:decimal,   "~> 1.1"},
-     {:httpoison, "~> 0.7"},
-     {:poison, "~> 3.0 or ~> 2.0"},
+     {:httpoison, "~> 1.1"},
+     {:poison, "~> 3.1"},
      {:earmark,   ">= 0.0.0", only: :dev},
      {:ex_doc,    ">= 0.0.0", only: :dev},
      {:excoveralls, "~> 0.6", only: :test}
