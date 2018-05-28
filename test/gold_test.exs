@@ -158,8 +158,7 @@ defmodule GoldTest do
   @info_integers ["walletversion", "version", "timeoffset", "protocolversion",
    "keypoolsize", "keypoololdest", "connections", "blocks"]
 
-  @info_methods ~w(getinfo
-                   getblockchaininfo
+  @info_methods ~w(getblockchaininfo
                    getmempoolinfo
                    getmemoryinfo
                    getmininginfo

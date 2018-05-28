@@ -239,7 +239,6 @@ defmodule Gold do
   @info_methods ~w(getblockchaininfo
                    getmempoolinfo
                    gettxoutsetinfo
-                   getinfo
                    getmemoryinfo
                    getmininginfo
                    getnetworkinfo
